@@ -2,7 +2,9 @@
   .if (@base16-style, 'dark', color, @base16-color-base03);
   .if (@base16-style, 'light', color, @base16-color-base04);
 }
-
+.syntax--source {
+    color:@base16-color-base08
+}
 .syntax--constant {
   color: @base16-color-base09;
 
@@ -229,13 +231,13 @@
     .if (@base16-style, 'dark', color, @base16-color-base0A);
     .if (@base16-style, 'light', color, @base16-color-base09);
   }
-  
+
   &.syntax--type {
     color: @base16-color-base0C;
   }
 
   &.syntax--function {
-    color: @base16-color-base0C;
+    color: @base16-color-base0D;
 
     &.syntax--any-method {
       color: @base16-color-base0D;
